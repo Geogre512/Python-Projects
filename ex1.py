@@ -58,6 +58,7 @@ txt = (sub("[\s\W\d]", "_", txt)).split("_")
 txt = list(filter(None, txt))
 #Finding the 5 biggest words
 big = []
+a = None
 for i in range(5):
     if not txt:
         break
